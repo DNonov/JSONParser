@@ -3,9 +3,10 @@
 namespace Dnonov\JsonParser\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Dnonov\JsonParser\JSONParser as JSONParserImplementation;
 
 class JSONParser extends Facade {
     protected static function getFacadeAccessor(): string {
-        return 'jsonparser';
+        return JSONParserImplementation::class;
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Dnonov\JsonParser;
 
-class JsonParser {
+class JSONParser {
     public function works() {
         return "works!";
     }
