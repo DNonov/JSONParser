@@ -131,35 +131,25 @@ class JSONParser {
     private static function catchErrors() {
         switch (json_last_error()) {
             case JSON_ERROR_NONE:
-                dump('CLEAN');
                 // JSON is valid and no error has occurred.
                 return;
             case JSON_ERROR_DEPTH:
-                dump('JSON_ERROR_DEPTH');
                 throw new JsonMaxDepthException();
             case JSON_ERROR_STATE_MISMATCH:
-                dump('JSON_ERROR_STATE_MISMATCH');
                 throw new JsonInvalidOrMalformedException();
             case JSON_ERROR_CTRL_CHAR:
-                dump('JSON_ERROR_CTRL_CHAR');
                 throw new JsonControlCharacterException();
             case JSON_ERROR_SYNTAX:
-                dump('JSON_ERROR_SYNTAX');
                 throw new JsonSyntaxErrorException();
             case JSON_ERROR_UTF8:
-                dump('JSON_ERROR_UTF8');
                 throw new JsonMalformedUTF8Exception();
             case JSON_ERROR_RECURSION:
-                dump('JSON_ERROR_RECURSION');
                 throw new JsonRecursiveReferenceException();
             case JSON_ERROR_INF_OR_NAN:
-                dump('JSON_ERROR_INF_OR_NAN');
                 throw new JsonInfinityOrNanDetectedException();
             case JSON_ERROR_UNSUPPORTED_TYPE:
-                dump('JSON_ERROR_UNSUPPORTED_TYPE');
                 throw new JsonUnsupportedTypeException();
             default:
-                dump('DEFAULT');
                 throw new JsonException();
         }
     }
