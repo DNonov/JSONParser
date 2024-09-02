@@ -26,6 +26,10 @@
             "pestphp/pest-plugin": true
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DNonov/JSONParser.git"
+    },
     "extra": {
         "laravel": {
             "providers": [
