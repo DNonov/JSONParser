@@ -19,7 +19,7 @@ composer require dnonov/json-parser
 
 ## Description
 This mainly exists because of the silent `json_decode`; if something's wrong it
-will return `null`. I prefer exception. I prefer nice method names as well.
+will return `null`. I prefer exceptions and nicer method names.
 It is very thin wrapper around three functions in PHP standard library, but I'm
 tired of re-writing it every time.
 
