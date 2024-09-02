@@ -14,11 +14,7 @@
             "email": "d.nonov@gmail.com"
         }
     ],
-    "require": {
-        "illuminate/support": "^8.83"
-    },
     "require-dev": {
-        "pestphp/pest": "^1.23",
         "orchestra/testbench": "^6.46"
     },
     "config": {
