@@ -1,6 +1,6 @@
 {
     "name": "dnonov/json-parser",
-    "version": "1.0.1",
+    "description": "Thin wrapper around `json_decode` and `json_encode` with exceptions and some handy methods.",
     "type": "library",
     "license": "MIT",
     "autoload": {
