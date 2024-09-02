@@ -10,7 +10,6 @@ use Dnonov\JsonParser\Exceptions\JsonInvalidOrMalformedException;
 use Dnonov\JsonParser\Exceptions\JsonMalformedUTF8Exception;
 use Dnonov\JsonParser\Exceptions\JsonMaxDepthException;
 use Dnonov\JsonParser\Exceptions\JsonRecursiveReferenceException;
-use Dnonov\JsonParser\Exceptions\JsonStateMismatchException;
 use Dnonov\JsonParser\Exceptions\JsonSyntaxErrorException;
 use Dnonov\JsonParser\Exceptions\JsonUnsupportedTypeException;
 
