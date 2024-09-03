@@ -1,7 +1,6 @@
 # JSONParser
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dnonov/json-parser.svg?style=flat-square)](https://packagist.org/packages/dnonov/json-parser)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/DNonov/JSONParser/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/DNonov/JSONParser/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/dnonov/json-parser.svg?style=flat-square)](https://packagist.org/packages/dnonov/json-parser)
 
 ## About
 Thin wrapper around `json_decode` and `json_encode` with exceptions and some handy methods.
